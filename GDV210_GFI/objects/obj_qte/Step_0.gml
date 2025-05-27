@@ -21,7 +21,7 @@ if (qte_active)
     {
         qte_active = false;
 		global.game_paused = false;
-		obj_player.m_health -= 10;
+		global.player_health -= 10;
         show_debug_message("QTE Failed!");
         // trigger fail effects
     }

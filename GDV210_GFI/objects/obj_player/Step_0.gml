@@ -4,7 +4,7 @@ left_key = keyboard_check(ord("A"));
 move_x = right_key - left_key;
 move_x = move_x * movespeed;
 
-global.player_health = m_health;
+//obj_gamemanager.player_health = m_health;
 
 if (global.game_paused == false)
 {
@@ -25,13 +25,13 @@ if (global.game_paused == false)
 // Increase health
 if (keyboard_check_pressed(vk_right))
 {
-    m_health += 10;
+    global.player_health += 10;
 }
 
 // Decrease health
 if (keyboard_check_pressed(vk_left))
 {
-	m_health -= 10;
+	global.player_health -= 10;
 }
 
-global.player_health = m_health;
+//obj_gamemanager.player_health = m_health;
