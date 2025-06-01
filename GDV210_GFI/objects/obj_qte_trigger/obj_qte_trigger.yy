@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_qte_trigger",
   "spriteId": {
-    "name": "spr_buildingN2",
-    "path": "sprites/spr_buildingN2/spr_buildingN2.yy",
+    "name": "Pedestrian_Traffic_Light",
+    "path": "sprites/Pedestrian_Traffic_Light/Pedestrian_Traffic_Light.yy",
   },
   "solid": false,
   "visible": true,
