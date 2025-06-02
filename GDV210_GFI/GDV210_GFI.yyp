@@ -16,6 +16,7 @@
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":11,},
     {"id":{"name":"Bakery","path":"sprites/Bakery/Bakery.yy",},"order":18,},
     {"id":{"name":"Lamp","path":"sprites/Lamp/Lamp.yy",},"order":13,},
+    {"id":{"name":"spr_background_home","path":"sprites/spr_background_home/spr_background_home.yy",},"order":21,},
     {"id":{"name":"spr_phone","path":"sprites/spr_phone/spr_phone.yy",},"order":20,},
     {"id":{"name":"spr_cafe","path":"sprites/spr_cafe/spr_cafe.yy",},"order":19,},
     {"id":{"name":"obj_phone","path":"objects/obj_phone/obj_phone.yy",},"order":20,},
