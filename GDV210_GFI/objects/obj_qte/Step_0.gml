@@ -1,5 +1,6 @@
 if (qte_active)
 {
+	
     qte_timer -= 1;
 
     if (keyboard_check_pressed(qte_key))
@@ -14,6 +15,8 @@ if (qte_active)
 		global.game_paused = false;
         show_debug_message("QTE Success!");
         // trigger success effects
+		//turn phone off
+		obj_phone.phoneON = false;
     }
 
     // Check fail
@@ -24,6 +27,8 @@ if (qte_active)
 		global.player_health -= 10;
         show_debug_message("QTE Failed!");
         // trigger fail effects
+		//turn phone off
+		obj_phone.phoneON = false;
     }
 }
 
