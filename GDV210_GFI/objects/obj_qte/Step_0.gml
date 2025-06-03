@@ -27,8 +27,11 @@ if (qte_active)
 		global.player_health -= 10;
         show_debug_message("QTE Failed!");
         // trigger fail effects
+		failed = true;
+		shake = true;
 		//turn phone off
 		obj_phone.phoneON = false;
     }
 }
+
 
