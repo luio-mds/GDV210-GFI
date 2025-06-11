@@ -45,12 +45,14 @@
     {"id":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"order":10,},
     {"id":{"name":"obj_qte_trigger","path":"objects/obj_qte_trigger/obj_qte_trigger.yy",},"order":2,},
     {"id":{"name":"spr_buildingN2","path":"sprites/spr_buildingN2/spr_buildingN2.yy",},"order":4,},
+    {"id":{"name":"spr_apartment","path":"sprites/spr_apartment/spr_apartment.yy",},"order":22,},
     {"id":{"name":"obj_building_backery","path":"objects/obj_building_backery/obj_building_backery.yy",},"order":12,},
     {"id":{"name":"Pedestrian_Traffic_Light","path":"sprites/Pedestrian_Traffic_Light/Pedestrian_Traffic_Light.yy",},"order":15,},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":8,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":1,},
     {"id":{"name":"fnt_qte","path":"fonts/fnt_qte/fnt_qte.yy",},"order":0,},
     {"id":{"name":"fnt_media","path":"fonts/fnt_media/fnt_media.yy",},"order":2,},
+    {"id":{"name":"obj_apartment","path":"objects/obj_apartment/obj_apartment.yy",},"order":22,},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
   ],
   "Options": [
@@ -98,6 +100,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.0.3.85",
+    "IDEVersion": "2022.0.2.51",
   },
 }

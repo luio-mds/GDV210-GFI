@@ -15,6 +15,7 @@ if (qte_active)
 		global.game_paused = false;
         show_debug_message("QTE Success!");
         // trigger success effects
+		global.active_building.m_distortion_level--;
 		//turn phone off
 		obj_phone.phoneON = false;
     }
@@ -29,6 +30,7 @@ if (qte_active)
         // trigger fail effects
 		failed = true;
 		shake = true;
+		shakeDur = 15;
 		//turn phone off
 		obj_phone.phoneON = false;
     }
