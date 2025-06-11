@@ -19,6 +19,9 @@ global.distort4_level = 0;
 global.distort5_level = 0;
 global.distort6_level = 0;
 
+global.distortion_level = 0;
+global.active_building = 0;
+
 distort_buttons = [
     obj_button_distort1,
     obj_button_distort2,
