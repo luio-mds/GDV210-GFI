@@ -1,4 +1,3 @@
-show_textbox = false;
 distort_level = 1;
 
 if (room != rm_room) exit;
@@ -40,4 +39,3 @@ x = frame_x;
 y = frame_y + y_offset;
 image_xscale = frame_w / sprite_width;
 image_yscale = button_h / sprite_height;
-

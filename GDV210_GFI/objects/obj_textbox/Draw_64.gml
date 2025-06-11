@@ -13,6 +13,10 @@ if (global.active_textbox != "")
     {
         draw_text_ext(360, 130, "Media 2: The quick brown fox jumps over the lazy dog blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
     }
+    else if (global.active_textbox == "distort3")
+    {
+        draw_text_ext(360, 130, "Media 3: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
 
     if (!instance_exists(obj_button_next))
     {

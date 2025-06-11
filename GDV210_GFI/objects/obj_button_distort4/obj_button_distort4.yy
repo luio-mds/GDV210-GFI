@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_distort1",
+  "name": "obj_button_distort4",
   "spriteId": {
     "name": "media_background",
     "path": "sprites/media_background/media_background.yy",
@@ -34,7 +34,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"media 1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"media 2",},
   ],
   "parent": {
     "name": "Objects",

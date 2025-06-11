@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_distort2",
   "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
+    "name": "media_background",
+    "path": "sprites/media_background/media_background.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,6 +29,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [

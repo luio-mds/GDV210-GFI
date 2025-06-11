@@ -7,10 +7,38 @@ switch (global.active_textbox)
 {
     case "distort1":
         global.distort1 = true;
+		global.distort1_level += 1;
+
         break;
 
     case "distort2":
         global.distort2 = true;
+		global.distort2_level += 1;
+
+        break;
+		
+    case "distort3":
+        global.distort3 = true;
+		global.distort3_level += 1;
+		
+        break;
+		
+	case "distort4":
+        global.distort4 = true;
+		global.distort4_level += 1;
+		
+        break;
+		
+	case "distort5":
+        global.distort5 = true;
+		global.distort5_level += 1;
+		
+        break;
+		
+	case "distort6":
+        global.distort6 = true;
+		global.distort6_level += 1;
+		
         break;
 
     default:
