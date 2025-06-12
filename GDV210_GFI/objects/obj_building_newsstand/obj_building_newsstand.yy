@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_building_backery",
+  "name": "obj_building_newsstand",
   "spriteId": {
-    "name": "spr_bakery",
-    "path": "sprites/spr_bakery/spr_bakery.yy",
+    "name": "spr_newsstand",
+    "path": "sprites/spr_newsstand/spr_newsstand.yy",
   },
   "solid": false,
   "visible": true,
