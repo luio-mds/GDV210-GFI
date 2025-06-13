@@ -17,6 +17,30 @@ if (global.active_textbox != "")
     {
         draw_text_ext(360, 130, "Media 3: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
     }
+	else if (global.active_textbox == "distort4")
+    {
+        draw_text_ext(360, 130, "Video 1: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
+	else if (global.active_textbox == "distort5")
+    {
+        draw_text_ext(360, 130, "Video 2: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
+	else if (global.active_textbox == "distort6")
+    {
+        draw_text_ext(360, 130, "Video 3: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
+	else if (global.active_textbox == "distort7")
+    {
+        draw_text_ext(360, 130, "News 1: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
+	else if (global.active_textbox == "distort8")
+    {
+        draw_text_ext(360, 130, "News 2: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
+	else if (global.active_textbox == "distort9")
+    {
+        draw_text_ext(360, 130, "News 3: blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah", 24, 400);
+    }
 
     if (!instance_exists(obj_button_next))
     {

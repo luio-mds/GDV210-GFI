@@ -18,6 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Managers","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_238A3731","properties":[],"isDnd":false,"objectId":{"name":"obj_gamemanager","path":"objects/obj_gamemanager/obj_gamemanager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DBB1149","properties":[],"isDnd":false,"objectId":{"name":"obj_filter","path":"objects/obj_filter/obj_filter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"UI","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65C8C050","properties":[],"isDnd":false,"objectId":{"name":"obj_qte","path":"objects/obj_qte/obj_qte.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":40.0,},
@@ -70,6 +71,7 @@
     {"name":"inst_287481F6","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_3CBBCC87","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_75225E00","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_3DBB1149","path":"rooms/rm_main/rm_main.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

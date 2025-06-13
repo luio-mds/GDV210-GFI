@@ -40,7 +40,25 @@ switch (global.active_textbox)
 		global.distort6_level += 1;
 		
         break;
-
+		
+	case "distort7":
+        global.distort7 = true;
+		global.distort7_level += 1;
+		
+        break;
+		
+	case "distort8":
+        global.distort8 = true;
+		global.distort8_level += 1;
+		
+        break;
+		
+	case "distort9":
+        global.distort9 = true;
+		global.distort9_level += 1;
+		
+        break;
+		
     default:
         break;
 }

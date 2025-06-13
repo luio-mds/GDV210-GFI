@@ -1,4 +1,4 @@
-active = true;
+active = false;
 randomize();
 image_speed = 0;
 if (variable_global_exists("distortion_level"))
