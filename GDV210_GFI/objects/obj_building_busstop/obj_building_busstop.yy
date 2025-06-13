@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_building_backery",
+  "name": "obj_building_busstop",
   "spriteId": {
-    "name": "spr_bakery",
-    "path": "sprites/spr_bakery/spr_bakery.yy",
+    "name": "spr_bus_stop",
+    "path": "sprites/spr_bus_stop/spr_bus_stop.yy",
   },
   "solid": false,
   "visible": true,

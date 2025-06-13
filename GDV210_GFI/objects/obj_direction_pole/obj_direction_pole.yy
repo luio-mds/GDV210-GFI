@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_direction_pole",
   "spriteId": {
-    "name": "Direction_Pole",
-    "path": "sprites/Direction_Pole/Direction_Pole.yy",
+    "name": "spr_direction_pole",
+    "path": "sprites/spr_direction_pole/spr_direction_pole.yy",
   },
   "solid": false,
   "visible": true,
