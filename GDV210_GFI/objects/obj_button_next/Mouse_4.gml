@@ -1,6 +1,5 @@
 event_inherited();
 
-room_goto(rm_main);
 global.player_health -= 10;
 
 switch (global.active_textbox)
@@ -64,5 +63,16 @@ switch (global.active_textbox)
 }
 
 global.active_textbox = "";
+
+
+if (global.player_health <= 0)
+{
+	room_goto(rm_end);	
+}
+else
+{
+	room_goto(rm_main);
+}
+
 
 instance_destroy();

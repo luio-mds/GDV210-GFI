@@ -64,6 +64,7 @@
     {"id":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"order":10,},
     {"id":{"name":"obj_qte_trigger","path":"objects/obj_qte_trigger/obj_qte_trigger.yy",},"order":32,},
     {"id":{"name":"spr_buildingN2","path":"sprites/spr_buildingN2/spr_buildingN2.yy",},"order":4,},
+    {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},"order":2,},
     {"id":{"name":"obj_button_distort9","path":"objects/obj_button_distort9/obj_button_distort9.yy",},"order":21,},
     {"id":{"name":"spr_apartment","path":"sprites/spr_apartment/spr_apartment.yy",},"order":22,},
     {"id":{"name":"obj_building_backery","path":"objects/obj_building_backery/obj_building_backery.yy",},"order":11,},
@@ -97,6 +98,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_room","path":"rooms/rm_room/rm_room.yy",},},
+    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
