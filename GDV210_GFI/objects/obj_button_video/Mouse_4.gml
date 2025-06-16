@@ -1,3 +1,5 @@
+event_inherited();
+
 with (obj_button_distort1) instance_destroy();
 with (obj_button_distort2) instance_destroy();
 with (obj_button_distort3) instance_destroy();

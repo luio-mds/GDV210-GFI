@@ -31,4 +31,8 @@ global.active_building = 0;
 global.player_health = 100;
 global.active_textbox = "";
 
+//music
+global.music = -1;
+global.qtesound = -1;
+
 display_set_gui_size(800, 580);

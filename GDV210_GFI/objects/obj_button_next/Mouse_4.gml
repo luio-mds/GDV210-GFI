@@ -74,5 +74,6 @@ else
 	room_goto(rm_main);
 }
 
+audio_play_sound(snd_next_day_01,10,false);
 
 instance_destroy();

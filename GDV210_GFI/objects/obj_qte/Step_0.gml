@@ -18,6 +18,7 @@ if (qte_active)
 		global.active_building.m_distortion_level--;
 		//turn phone off
 		obj_phone.phoneON = false;
+		audio_stop_sound(snd_qte_01);
     }
 
     // Check fail
@@ -31,8 +32,10 @@ if (qte_active)
 		failed = true;
 		shake = true;
 		shakeDur = 15;
+		audio_play_sound(snd_error_01,10,false,3,0.55,1.2);
 		//turn phone off
 		obj_phone.phoneON = false;
+				audio_stop_sound(snd_qte_01);
     }
 }
 

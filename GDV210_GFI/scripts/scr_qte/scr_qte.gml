@@ -27,4 +27,8 @@ function start_qte(player_health)
 	show_debug_message(chr(qte_key));
 	show_debug_message(qte_timer);
 	show_debug_message(qte_required_mashes);
+	
+	//sound
+	audio_play_sound(snd_notification_01,10,false,0.5);
+	audio_play_sound(snd_qte_01,10,true,3,0);
 }
