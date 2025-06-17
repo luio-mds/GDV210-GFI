@@ -34,8 +34,6 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"m_buildingNo","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"1",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"m_distortSprite","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"spr_buildingD1",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"m_buildingSprite","path":"objects/obj_building/obj_building.yy",},"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"value":"Bakery",},
   ],
   "parent": {
     "name": "Buildings",

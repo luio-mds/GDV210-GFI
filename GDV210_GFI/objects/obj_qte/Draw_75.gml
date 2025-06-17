@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
 if (qte_active)
 {
     draw_set_font(fnt_qte);
@@ -13,7 +11,7 @@ if (qte_active)
     //var center_x = display_get_gui_width() / 2;
 	
 	var center_x = camera_get_view_width(view_camera[0]) / 2;
-	var line_y = camera_get_view_height(view_camera[0]) / 2 - 150;
+	var line_y = camera_get_view_height(view_camera[0]) / 2 - 160;
 	
 	if(instance_exists(obj_phone))
 	{
@@ -35,6 +33,6 @@ if (qte_active)
 	// draw messages
 	if(!instance_exists(obj_phone))
 	{
-		draw_text(center_x - 200, line_y, "something seems different today!");
+		draw_text(center_x - 170, line_y, "Resist from Distraction!");
 	}
 }

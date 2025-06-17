@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_city_01.mp3",
-  "duration": 0.0,
+  "duration": 335.808,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
