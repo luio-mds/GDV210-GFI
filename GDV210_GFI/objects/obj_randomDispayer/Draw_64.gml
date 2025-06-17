@@ -8,11 +8,11 @@ var gh = display_get_gui_height();
 
 if (drawSprite) 
 {
-    draw_sprite_ext(currentSprite, 0, gw * 0.5, gh * 0.5, 1.2, 1.2, 0, c_white, 1);
+    draw_sprite_ext(currentSprite, 0, gw * 0.5, gh * 0.5, 1.3, 1.3, 0, c_white, 1);
 } 
 else if (drawText) 
 {
-    draw_text(gw * 0.5, gh * 0.5, currentText);
+    draw_text(gw * 0.2, gh * 0.15, currentText);
 }
 
 // Reset alignment

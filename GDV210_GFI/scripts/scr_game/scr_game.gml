@@ -15,7 +15,8 @@ function updateText()
     var friendsRemaining = floor(35 - (healthFactor * 35)); // 35 to 0
     
     // Format the text with line breaks
-    currentText = "Accounts Blocked: " + string(accountsBlocked) + "\n";
-    currentText += "Channels Subscribed: " + string(channelsSubscribed) + "\n";
-    currentText += "Friends Remaining: " + string(friendsRemaining);
+    currentText = "Status: " + "\n\n\n";
+    currentText += "Chirp Accounts Blocked: " + string(accountsBlocked) + "\n\n";
+    currentText += "WeTube Channels Subscribed: " + string(channelsSubscribed) + "\n\n";
+    currentText += "Friends: " + string(friendsRemaining);
 }

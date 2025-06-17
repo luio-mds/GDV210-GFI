@@ -1,9 +1,7 @@
 if (global.active_textbox != "")
 {
     draw_set_font(fnt_media);
-    draw_set_color(c_black);
     draw_rectangle(350, 120, 700, 400, false);
-    draw_set_color(c_white);
 
     if (global.active_textbox == "distort1")
     {
