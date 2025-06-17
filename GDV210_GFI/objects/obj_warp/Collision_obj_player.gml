@@ -1,1 +1,1 @@
-room_goto(rm_room)
+create_fade(rm_room);

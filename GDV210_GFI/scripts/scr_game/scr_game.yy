@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scr_button",
+  "name": "scr_game",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
