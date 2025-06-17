@@ -1,6 +1,6 @@
 event_inherited();
 
-global.player_health -= 10;
+global.player_health -= 5;
 
 switch (global.active_textbox)
 {

@@ -53,7 +53,7 @@ if (qte_active)
     {
         qte_active = false;
 		global.game_paused = false;
-		global.player_health -= 10;
+		global.player_health -= 5;
         show_debug_message("QTE Failed!");
         // trigger fail effects
 		failed = true;

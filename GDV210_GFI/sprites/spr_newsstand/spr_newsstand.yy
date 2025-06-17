@@ -29,8 +29,6 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"864bd9e1-51e9-45e8-93f1-25b1fb0e8bcc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"476f159a-99a1-4f6f-a6a3-6144b55c4719",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8de70f36-27f2-4cb5-a720-3f5ca62d3732",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -42,14 +40,12 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4596ee81-00d3-4c23-9d3c-d76db9d0fac8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"864bd9e1-51e9-45e8-93f1-25b1fb0e8bcc","path":"sprites/spr_newsstand/spr_newsstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8d64bb21-936a-4252-8472-736f3b73b915","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"476f159a-99a1-4f6f-a6a3-6144b55c4719","path":"sprites/spr_newsstand/spr_newsstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1053b5d5-0090-4cda-90ad-0b4909cc3e66","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8de70f36-27f2-4cb5-a720-3f5ca62d3732","path":"sprites/spr_newsstand/spr_newsstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -72,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Buildings",
+    "path": "folders/Sprites/Buildings.yy",
   },
 }
