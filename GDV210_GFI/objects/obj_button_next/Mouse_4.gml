@@ -55,6 +55,11 @@ switch (global.active_textbox)
 
 global.active_textbox = "";
 
+global.distortion_level = global.distort1_level + global.distort2_level + global.distort3_level + global.distort4_level
++ global.distort5_level + global.distort6_level + global.distort7_level + global.distort8_level + global.distort9_level;
+
+global.distortion_level /= 9;
+
 create_fade(rm_wait);
 
 audio_play_sound(snd_next_day_01,10,false);

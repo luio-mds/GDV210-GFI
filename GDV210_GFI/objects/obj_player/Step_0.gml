@@ -15,9 +15,14 @@ if (global.game_paused == false)
 
 	move_and_collide(move_x, move_y, obj_ground);
 
-	if move_x != 0
+	if (move_x != 0)
 	{
-		image_xscale = sign(move_x);	
+		image_xscale = sign(move_x);
+		sprite_index = spr_player_walk;
+	}
+	else
+	{
+		sprite_index = spr_player_idle;	
 	}
 }
 

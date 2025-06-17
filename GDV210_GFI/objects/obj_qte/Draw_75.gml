@@ -11,8 +11,16 @@ if (qte_active)
 
     // Draw the prompt text
     //var center_x = display_get_gui_width() / 2;
-    var center_x = obj_phone.bbox_right / 2;
-	var line_y = obj_phone.bbox_top + 100;
+	
+	var center_x = camera_get_view_width(view_camera[0]) / 2;
+	var line_y = camera_get_view_height(view_camera[0]) / 2 - 150;
+	
+	if(instance_exists(obj_phone))
+	{
+		var center_x = obj_phone.bbox_right / 2;
+		var line_y = obj_phone.bbox_top + 100;
+	}
+	
     draw_text(center_x - string_width("MASH " + chr(qte_key)) / 2, line_y + 50, "MASH " + chr(qte_key) + "!");
 
     // Draw mash progress
@@ -25,5 +33,8 @@ if (qte_active)
     draw_rectangle(center_x - 100, line_y + 110, center_x - 100 + 200 * time_ratio, line_y + 130, false);
 	
 	// draw messages
-	draw_text(center_x - 50, line_y, "something seems different today!");
+	if(!instance_exists(obj_phone))
+	{
+		draw_text(center_x - 200, line_y, "something seems different today!");
+	}
 }

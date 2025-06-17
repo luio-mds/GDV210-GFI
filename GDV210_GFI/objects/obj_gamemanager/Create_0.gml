@@ -35,4 +35,7 @@ global.active_textbox = "";
 global.music = -1;
 global.qtesound = -1;
 
+//phone media icon
+global.spritedraw = spr_media_news;
+
 display_set_gui_size(800, 580);
