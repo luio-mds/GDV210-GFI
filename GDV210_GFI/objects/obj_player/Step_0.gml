@@ -8,10 +8,10 @@ move_x = move_x * movespeed;
 
 if (global.game_paused == false)
 {
-	if place_meeting(x, y+2, obj_ground)
-	{
-		move_y = 0;
-	}
+	//if place_meeting(x, y+2, obj_ground)
+	//{
+	//	move_y = 0;
+	//}
 
 	move_and_collide(move_x, move_y, obj_ground);
 

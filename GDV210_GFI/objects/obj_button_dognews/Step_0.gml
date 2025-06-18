@@ -10,6 +10,7 @@ if (point_in_rectangle(mx, my, x, y, x + sprite_width, y + sprite_height)) {
 		audio_play_sound(snd_click_01,10,false,1,0.15);
 		obj_phone.phoneON = false;
 		audio_play_sound(snd_news_01,10,false,0.4,0.15);
+		global.player_health += 5;
     }
 }
 if(!obj_phone.phoneON)

@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_ground",
-  "spriteId": {
-    "name": "spr_ground",
-    "path": "sprites/spr_ground/spr_ground.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

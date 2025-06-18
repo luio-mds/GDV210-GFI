@@ -12,7 +12,8 @@ if (drawSprite)
 } 
 else if (drawText) 
 {
-    draw_text(gw * 0.2, gh * 0.15, currentText);
+    //draw_text(gw * 0.2, gh * 0.15, currentText);
+	draw_text(gw * 0.5, gh * 0.5, currentText);
 }
 
 // Reset alignment

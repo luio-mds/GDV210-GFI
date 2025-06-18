@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_next",
   "spriteId": {
-    "name": "spr_button_next",
-    "path": "sprites/spr_button_next/spr_button_next.yy",
+    "name": "spr_next",
+    "path": "sprites/spr_next/spr_next.yy",
   },
   "solid": false,
   "visible": true,
